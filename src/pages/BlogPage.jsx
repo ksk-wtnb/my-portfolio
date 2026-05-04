@@ -12,7 +12,6 @@ function BlogPage() {
               <Link to={`/blog/${post.id}`}>{post.title}</Link>
             </h3>
             <p>{post.date}</p>
-            <p>{post.summary}</p>
           </li>
         ))}
       </ul>
