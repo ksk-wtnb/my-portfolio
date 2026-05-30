@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import AboutPage from './pages/AboutPage'
 import BlogPage from './pages/BlogPage'
 import PostPage from './pages/PostPage'
+import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       </Routes>
 
       <Footer />
+      <Analytics />
     </>
   )
 }
